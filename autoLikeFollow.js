@@ -1,7 +1,7 @@
+//NOTE: Insta changes frequently for automation, so accordingly add the class name 
 const likeButtons = document.querySelectorAll(".x6s0dn4.x78zum5.xdt5ytf.xl56j7k");
 const followButtons = document.querySelectorAll("._aacw._aad6");
 const unfollowButtons = document.getElementsByClassName("_a9-_");
-//Insta changes frequently for automation, so accordingly add the class name 
 
 let index = 1;
 const interval = setInterval(() => {
