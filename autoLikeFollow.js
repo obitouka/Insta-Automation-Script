@@ -1,4 +1,4 @@
-//NOTE: Insta changes frequently for automation, so accordingly add the class name 
+//NOTE: Insta changes class names frequently to prevent automation, so accordingly add the new one
 const likeButtons = document.querySelectorAll(".x6s0dn4.x78zum5.xdt5ytf.xl56j7k");
 const followButtons = document.querySelectorAll("._aacw._aad6");
 const unfollowButtons = document.getElementsByClassName("_a9-_");
@@ -24,7 +24,7 @@ function likePost(index) {
         const cancelButton = document.querySelector("._a9_1");
         if (cancelButton) 
             cancelButton.click();
-    }, 100);
+    }, 420);
 }
 
 function followUser(index) {
